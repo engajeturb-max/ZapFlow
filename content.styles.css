@@ -1,0 +1,152 @@
+/* Azul escuro nos botões principais */
+.ant-btn-primary {
+  background-color: #0056b3 !important;
+  border-color: #0056b3 !important;
+  color: rgb(20, 12, 73) !important;
+}
+
+img[src*="painelbotcrm.autobotdigital.net.br"],
+img[src*="autobotdigital.net.br"],
+img[src*="crm.dw-api.com"],
+img[src*="dw-api.com"] {
+  crossorigin: anonymous;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+}
+
+img[src*="painelbotcrm.autobotdigital.net.br"]:not([alt=""]):before,
+img[src*="autobotdigital.net.br"]:not([alt=""]):before,
+img[src*="crm.dw-api.com"]:not([alt=""]):before,
+img[src*="dw-api.com"]:not([alt=""]):before {
+  content: "🖼️";
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background: #f0f0f0;
+  border-radius: 4px;
+  text-align: center;
+  line-height: 24px;
+  font-size: 12px;
+}
+
+.mbf-sidebar img,
+.wc-user-img {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+#mbf_loading img {
+  max-width: 80px;
+  height: auto;
+  object-fit: contain;
+}
+
+.btn-item-img img:not([src]),
+.btn-item-img img[src=""] {
+  background: linear-gradient(135deg, #f0f0f0 0%, #e0e0e0 100%);
+  border-radius: 8px;
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+}
+
+.ant-btn-primary:hover,
+.ant-btn-primary:focus,
+.ant-btn-primary:active {
+  background-color: #003d80 !important;
+  border-color: #003d80 !important;
+  color: rgb(12, 50, 45) !important;
+}
+
+/* Para botões com style inline usando verde */
+button[style*="#25d366"],
+button[style*="rgb(37, 211, 102)"],
+button[style*="#00a884"],
+button[style*="rgb(0, 168, 132)"],
+button[style*="background-color: var(--theme-green-100)"] {
+  background-color: #0056b3 !important;
+  border-color: #0056b3 !important;
+  color: rgb(41, 23, 52) !important;
+}
+
+/* Texto branco nos botões */
+button span {
+  color: rgb(7, 62, 64) !important;
+}
+.ant-btn {
+  background-color: #0056b3 !important;
+  border-color: #0056b3 !important;
+  color: white !important;
+}
+
+.ant-btn:hover,
+.ant-btn:focus,
+.ant-btn:active {
+  background-color: #003d80 !important;
+  border-color: #003d80 !important;
+  color: white !important;
+}
+
+.ant-btn span {
+  color: white !important;
+}
+/* Estilo para botão com texto "Documentação" */
+a.ant-btn.custom-document-btn {
+  background-color: #000 !important;
+  border-color: #000 !important;
+  color: #fff !important;
+}
+
+/* Cor do texto dentro do botão */
+a.ant-btn.custom-document-btn span {
+  color: #fff !important;
+}
+
+/* Hover preto ainda mais escuro (opcional) */
+a.ant-btn.custom-document-btn:hover {
+  background-color: #1a1a1a !important;
+  border-color: #1a1a1a !important;
+  color: #fff !important;
+}
+/* Caixa do checkbox quando marcado */
+.ant-checkbox-checked .ant-checkbox-inner {
+  background-color: #0056b3 !important;
+  border-color: #0056b3 !important;
+}
+
+/* Borda azul escuro quando mouse passa por cima */
+.ant-checkbox-wrapper:hover .ant-checkbox-inner,
+.ant-checkbox:hover .ant-checkbox-inner {
+  border-color: #0056b3 !important;
+}
+
+/* Quando o checkbox estiver em foco */
+.ant-checkbox-input:focus + .ant-checkbox-inner {
+  border-color: #0056b3 !important;
+  box-shadow: 0 0 0 2px rgba(0, 86, 179, 0.2) !important;
+}
+/* Quando o switch estiver ativado */
+.ant-switch.ant-switch-checked {
+  background-color: #0056b3 !important;
+}
+
+/* Opcional: alterar a cor ao passar o mouse */
+.ant-switch.ant-switch-checked:hover {
+  background-color: #003d80 !important;
+}
+/* Altera o fundo verde do SVG para azul */
+div svg rect[fill="#10A37F"] {
+  fill: #0056b3 !important;
+}
+/* Força o preenchimento azul escuro nos paths do ícone */
+.custom-notification-icon-dark {
+  fill: #0056b3 !important;
+}
+/* Cor azul escuro para o placeholder do ant-select */
+.ant-select-selection-placeholder {
+  color: #0056b3 !important;
+}
+:root {
+  --custom-primary-color: #0056b3 !important;
+}
